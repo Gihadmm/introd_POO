@@ -5,13 +5,22 @@ public class Veiculos {
     String Cor;
     String Marca;
     int Ano;
+    private int VIN;
 
-
-    private void Mover(){
-
-
-
+    public int getVIN() {
+        return VIN;
     }
+
+    public void setVin(){
+        this.VIN = 2;
+    }
+
+    public void Mover(){
+
+        System.out.println("Vruuuummm");
+    }
+
+
 
 
 }

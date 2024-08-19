@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85eebe4-ff53-46e7-966e-e0c25c4c4f12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Veiculos.java" afterDir="false" />
+    <list default="true" id="e85eebe4-ff53-46e7-966e-e0c25c4c4f12" name="Changes" comment="Criando atributos de metodos">
+      <change afterPath="$PROJECT_DIR$/src/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veiculos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -71,11 +79,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724108529092</updated>
-      <workItem from="1724108530123" duration="338000" />
+      <workItem from="1724108530123" duration="1850000" />
     </task>
+    <task id="LOCAL-00001" summary="Criando atributos de metodos">
+      <option name="closed" value="true" />
+      <created>1724109068466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724109068466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criando atributos de metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando atributos de metodos" />
   </component>
 </project>
