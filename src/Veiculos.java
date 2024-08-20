@@ -1,4 +1,4 @@
-public class Veiculos {
+public abstract class Veiculos {
 
     //atributos
     String Modelo;
@@ -7,6 +7,13 @@ public class Veiculos {
     int Ano;
     private int VIN;
 
+    public Veiculos(String Modelo, String Cor, String Marca, int Ano) {
+        this.Modelo = Modelo;
+        this.Cor = Cor;
+        this.Marca = Marca;
+        this.Ano = Ano;
+    }
+
     public int getVIN() {
         return VIN;
     }
@@ -14,6 +21,8 @@ public class Veiculos {
     public void setVin(){
         this.VIN = 2;
     }
+
+
 
     public void Mover(){
 
