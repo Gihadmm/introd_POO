@@ -1,2 +1,14 @@
-public class Moto extends Veiculos{
+public class Moto extends Veiculos {
+
+
+
+    public void mover() {
+        System.out.println("A moto é ágil e leve");
+    }
+
+    public void ligar() {
+        System.out.println("A moto está ligada");
+    }
+
+
 }

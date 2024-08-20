@@ -12,7 +12,11 @@ public abstract class Veiculos {
         this.cor = cor;
     }
 
-    protected Veiculos() {
+    public Veiculos() {
     }
+
+    public abstract void mover();
+    public abstract void ligar();
+
 
 }
