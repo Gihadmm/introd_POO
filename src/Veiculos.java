@@ -1,35 +1,18 @@
 public abstract class Veiculos {
 
-    //atributos
-    String Modelo;
-    String Cor;
-    String Marca;
-    int Ano;
-    private int VIN;
+    String marca;
+    String modelo;
+    int ano;
+    String cor;
 
-    public Veiculos(String Modelo, String Cor, String Marca, int Ano) {
-        this.Modelo = Modelo;
-        this.Cor = Cor;
-        this.Marca = Marca;
-        this.Ano = Ano;
+    public Veiculos(String marca, String modelo, int ano, String cor) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.cor = cor;
     }
 
-    public int getVIN() {
-        return VIN;
+    protected Veiculos() {
     }
-
-    public void setVin(){
-        this.VIN = 2;
-    }
-
-
-
-    public void Mover(){
-
-        System.out.println("Vruuuummm");
-    }
-
-
-
 
 }
