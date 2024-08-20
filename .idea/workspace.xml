@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85eebe4-ff53-46e7-966e-e0c25c4c4f12" name="Changes" comment="Reestruturando as classes">
+    <list default="true" id="e85eebe4-ff53-46e7-966e-e0c25c4c4f12" name="Changes" comment="Criando atributo privado, e o seu Setter e Getter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Caminhao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veiculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +29,12 @@
     &quot;assignee&quot;: &quot;Gihadmm&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Gihadmm/introd_POO.git",
-    "accountId": "d5b4cd6b-6fcc-4820-a76f-765f3f58ecfe"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gihadmm/introd_POO.git&quot;,
+    &quot;accountId&quot;: &quot;d5b4cd6b-6fcc-4820-a76f-765f3f58ecfe&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,6 +49,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -79,6 +78,8 @@
       <updated>1724108529092</updated>
       <workItem from="1724108530123" duration="1850000" />
       <workItem from="1724171856765" duration="2440000" />
+      <workItem from="1724185965941" duration="891000" />
+      <workItem from="1724186954609" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="Criando atributos de metodos">
       <option name="closed" value="true" />
@@ -96,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724171988287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reestruturando as classes">
+      <option name="closed" value="true" />
+      <created>1724186029901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724186029901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Criando atributo privado, e o seu Setter e Getter">
+      <option name="closed" value="true" />
+      <created>1724186517074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724186517074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando atributos de metodos" />
     <MESSAGE value="Reestruturando as classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reestruturando as classes" />
+    <MESSAGE value="Criando atributo privado, e o seu Setter e Getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando atributo privado, e o seu Setter e Getter" />
   </component>
 </project>
