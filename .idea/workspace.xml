@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85eebe4-ff53-46e7-966e-e0c25c4c4f12" name="Changes" comment="Criando atributo privado, e o seu Setter e Getter">
+    <list default="true" id="e85eebe4-ff53-46e7-966e-e0c25c4c4f12" name="Changes" comment="Organizando o código, fazendo comentarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Caminhao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Veiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veiculos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +64,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="introd_POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,7 +99,7 @@
       <workItem from="1724185965941" duration="891000" />
       <workItem from="1724186954609" duration="1154000" />
       <workItem from="1724196146473" duration="4263000" />
-      <workItem from="1724270491784" duration="4192000" />
+      <workItem from="1724270491784" duration="7082000" />
     </task>
     <task id="LOCAL-00001" summary="Criando atributos de metodos">
       <option name="closed" value="true" />
@@ -126,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724196224538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Organizando o código, fazendo comentarios">
+      <option name="closed" value="true" />
+      <created>1724283653284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724283653284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +170,7 @@
     <MESSAGE value="Criando atributos de metodos" />
     <MESSAGE value="Reestruturando as classes" />
     <MESSAGE value="Criando atributo privado, e o seu Setter e Getter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando atributo privado, e o seu Setter e Getter" />
+    <MESSAGE value="Organizando o código, fazendo comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando o código, fazendo comentarios" />
   </component>
 </project>

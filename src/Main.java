@@ -11,7 +11,8 @@ public class Main {
         onix.cor = "azul petroleo";
         onix.marca = "Toyota";
         onix.setVIN(123456123);
-        System.out.println();
+        onix.mover();
+
 
         Moto pop100 = new Moto();
         pop100.modelo= "Pop100";
@@ -19,6 +20,19 @@ public class Main {
         pop100.cor = "verde";
         pop100.marca = "Honda";
         pop100.setVIN(40026922);
+        pop100.mover();
+
+        Caminhao carreta = new Caminhao();
+        carreta.modelo= "Carreta";
+        carreta.ano= 2009;
+        carreta.cor = "vermelho";
+        carreta.marca = "Scania";
+        carreta.setVIN(50000);
+        carreta.mover();
+
+
+
+
 
 
 

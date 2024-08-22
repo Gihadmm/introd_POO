@@ -1,5 +1,8 @@
-public class Moto extends Veiculos {
 
+
+//classe de Caminhões que herda os atributos e os metodos da classe veiculos
+
+public class Moto extends Veiculos {
 
 
     public void mover() {
