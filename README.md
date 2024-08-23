@@ -12,10 +12,13 @@ Imagine que você precisa criar um sistema para gerenciar veículos em uma empre
 
 Perguntas:
 1. Quais características (atributos) e comportamentos (métodos) você consideraria importantes para uma classe abstrata chamada Veículo? Liste pelo menos 4 atributos e 2 métodos que fariam parte dessa classe.
-   R:   Os atributos: Marca, Modelo, Ano e Cor. Os metodos: Mover, e ligar.
+
+
+    R:   Os atributos: Marca, Modelo, Ano e Cor. Os metodos: Mover, e ligar.
 
 
 3. Por que você acha que essa classe deveria ser abstrata? Explique o conceito de abstração com base nesse exemplo.
+
    R:  A classe veiculo deveria ser abstrata pois é um conceito genérico, e que vai servir como base para futuras classes mais "especificas" que são veiculos.
 
 
