@@ -5,7 +5,6 @@ public abstract class Veiculos {
     String modelo;
     int ano;
     String cor;
-    int rodas;
 
     //atributo privado, conceito de encapsulamento
     private int VIN;
@@ -15,19 +14,15 @@ public abstract class Veiculos {
         this.modelo = modelo;
         this.ano = ano;
         this.cor = cor;
-        this.rodas = rodas;
     }
 
-
-
-    //getter e setter
+    //getter e setter   
     public int getVIN() {
         return VIN;
     }
-    public void setVIN(int VIN) {
+        public void setVIN(int VIN) {
         this.VIN = VIN;
     }
-
 
     //metodos dos veiculos
     public Veiculos() {
@@ -35,6 +30,5 @@ public abstract class Veiculos {
 
     public abstract void mover();
     public abstract void ligar();
-
 
 }

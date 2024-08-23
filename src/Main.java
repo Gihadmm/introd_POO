@@ -13,7 +13,6 @@ public class Main {
         onix.setVIN(123456123);
         onix.mover();
 
-
         Moto pop100 = new Moto();
         pop100.modelo= "Pop100";
         pop100.ano= 2014;

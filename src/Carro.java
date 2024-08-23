@@ -1,6 +1,4 @@
-
-
-        //classe de carros que herda os atributos e os metodos da classe veiculos
+//classe de carros que herda os atributos e os metodos da classe veiculos
 public class Carro extends Veiculos {
 
 
