@@ -12,9 +12,12 @@ Imagine que você precisa criar um sistema para gerenciar veículos em uma empre
 
 Perguntas:
 1. Quais características (atributos) e comportamentos (métodos) você consideraria importantes para uma classe abstrata chamada Veículo? Liste pelo menos 4 atributos e 2 métodos que fariam parte dessa classe.
+   R:   Os atributos: Marca, Modelo, Ano e Cor. Os metodos: Mover, e ligar.
 
 
-2. Por que você acha que essa classe deveria ser abstrata? Explique o conceito de abstração com base nesse exemplo.
+3. Por que você acha que essa classe deveria ser abstrata? Explique o conceito de abstração com base nesse exemplo.
+   R:  A classe veiculo deveria ser abstrata pois é um conceito genérico, e que vai servir como base para futuras classes mais "especificas" que são veiculos.
+
 
 
 Parte 2: Herança
@@ -22,8 +25,13 @@ Com base na classe abstrata Veículo, você precisa criar classes específicas p
 Perguntas:
 
 1. Se a classe Veiculo tem um método abstrato chamado mover(), como você implementaria esse método nas classes Carro, Moto, e Caminhao? Descreva como cada tipo de veículo se move de maneira diferente.
+  R: O metodo mover foi feito abstrato na classe veiculos, e foi declarado em cada uma das subclasses:
+    carro: O carro se move de maneira suave e controlada
+    moto: A moto é ágil e leve
+    Caminhão: O caminhão se move de forma mais lenta e robusta 
 
-2. Qual é a vantagem de usar herança nesse caso, em vez de criar as classes Carro, Moto, e Caminhao do zero? Explique o conceito de herança com base nesse exemplo.
+
+3. Qual é a vantagem de usar herança nesse caso, em vez de criar as classes Carro, Moto, e Caminhao do zero? Explique o conceito de herança com base nesse exemplo.
 
 
 Parte 3: Encapsulamento
